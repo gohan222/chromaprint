@@ -37,7 +37,7 @@ using namespace std;
 using namespace Chromaprint;
 
 static const int SAMPLE_RATE = 22050;
-static const int FRAME_SIZE = 1024;
+static const int FRAME_SIZE = 512;
 static const int OVERLAP = FRAME_SIZE - FRAME_SIZE / 3;
 static const int MIN_FREQ = 28;
 static const int MAX_FREQ = 3520;
